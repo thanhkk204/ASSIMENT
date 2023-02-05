@@ -1,0 +1,383 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+}
+.header .top {
+  width: 100%;
+  height: 100px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: right;
+  padding-top: 24px;
+  background-color: rgba(199, 48, 91, 0.4392156863);
+}
+.header .top .search {
+  width: 30%;
+  display: flex;
+}
+.header .top .search form input {
+  width: 486px;
+  font-size: 20px;
+  height: 45px;
+}
+.header .top .search i {
+  font-size: 45px;
+  font-size: 45px;
+  height: 45px;
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0.4392156863);
+}
+.header .top .infor {
+  width: 5%;
+  height: 100%;
+  text-align: center;
+}
+.header .top .infor i {
+  font-size: 30px;
+}
+.header .top .infor span {
+  display: block;
+}
+.header .top .pay {
+  width: 5%;
+  height: 100%;
+  text-align: center;
+}
+.header .top .pay i {
+  font-size: 30px;
+}
+.header .top .pay span {
+  display: block;
+}
+.header .top .acount {
+  width: 5%;
+  height: 100%;
+  text-align: center;
+}
+.header .top .acount i {
+  font-size: 30px;
+}
+.header .top .acount span {
+  display: block;
+}
+.header .top .cart {
+  width: 5%;
+  height: 100%;
+  text-align: center;
+  margin-right: 240px;
+}
+.header .top .cart i {
+  font-size: 30px;
+}
+.header .top .cart span {
+  display: block;
+}
+.header .bottom {
+  width: 100%;
+  height: 50px;
+  border: 1px solid green;
+  background-color: gray;
+}
+.header .bottom ul {
+  width: 53%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 15px;
+}
+.header .bottom ul i {
+  font-size: 22px;
+}
+.header .bottom ul li {
+  list-style: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.center {
+  width: 60%;
+  margin: auto;
+}
+.center .center-top {
+  width: 100%;
+  height: 170px;
+  line-height: 44px;
+}
+.center .center-top .top a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.center .center-top .bottom {
+  width: 100%;
+  height: 120px;
+  display: flex;
+}
+.center .center-top .bottom .bottom-left {
+  width: 65%;
+}
+.center .center-top .bottom .bottom-right {
+  width: 35%;
+  display: flex;
+}
+.center .center-top .bottom .bottom-right .star {
+  margin-right: 10px;
+}
+.center .center-top .bottom .bottom-right .danhGia {
+  margin-right: 20px;
+  font-size: 20px;
+}
+.center .center-top .bottom .bottom-right .danhGia a {
+  text-decoration: none;
+}
+.center .center-top .bottom .bottom-right .soSanh {
+  font-size: 20px;
+}
+.center .center-top .bottom .bottom-right .soSanh a {
+  text-decoration: none;
+}
+.center .center-bottom {
+  height: 1000px;
+  border: 1px solid red;
+  display: flex;
+}
+.center .center-bottom .left {
+  width: 50%;
+  height: 1000px;
+}
+.center .center-bottom .left .phone {
+  width: 100%;
+  border: 1px solid rgb(162, 230, 1);
+  height: 550px;
+  background: url("https://images.fpt.shop/unsafe/fit-in/585x429/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108864930926001_frame-detail-585x428.png") center no-repeat;
+  background-size: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.center .center-bottom .left .phone img {
+  width: 60%;
+  margin-top: 100px;
+}
+.center .center-bottom .left .phone p {
+  margin-top: 44px;
+  font-size: 40px;
+  color: yellow;
+  font-weight: 900;
+}
+.center .center-bottom .left .underPhone {
+  display: flex;
+  display: flex;
+  width: 100%;
+  height: 88px;
+  justify-content: center;
+  margin-top: 35px;
+}
+.center .center-bottom .left .underPhone span {
+  text-align: center;
+  margin-left: 30px;
+}
+.center .center-bottom .left .underPhone span i {
+  font-size: 50px;
+}
+.center .center-bottom .left .underPhone span p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+.center .center-bottom .left .left-bottom {
+  width: 99%;
+  height: 293px;
+  margin-top: 30px;
+  background-color: #e4dddd;
+  border-radius: 5px;
+  display: inline-block;
+}
+.center .center-bottom .left .left-bottom ul {
+  width: 98%;
+  height: 92%;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.center .center-bottom .left .left-bottom ul li {
+  width: 100%;
+  height: 50px;
+  list-style: none;
+}
+.center .center-bottom .left .left-bottom ul li span {
+  display: inline-block;
+}
+.center .center-bottom .left .left-bottom ul li span i {
+  display: inline-block;
+}
+.center .center-bottom .left .left-bottom ul li span p {
+  display: inline-block;
+  font-size: 19px;
+  margin-left: 5px;
+}
+.center .center-bottom .right {
+  width: 50%;
+  border: 1px solid rgb(210, 232, 13);
+  height: 1000px;
+  margin-left: 40px;
+}
+.center .center-bottom .right .price {
+  width: 100%;
+  height: 70px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.center .center-bottom .right .price span {
+  display: flex;
+}
+.center .center-bottom .right .price span #gia {
+  color: red;
+  font-weight: bold;
+  font-size: 50px;
+  margin-right: 20px;
+}
+.center .center-bottom .right .price span #giaDeal {
+  margin-top: 23px;
+  color: gray;
+  font-size: 24px;
+}
+.center .center-bottom .right #underPrice {
+  width: 35%;
+  height: 35px;
+  display: inline-block;
+  margin-left: 16px;
+  line-height: 35px;
+  text-align: center;
+  background-color: yellow;
+  border-radius: 18px;
+}
+.center .center-bottom .right #underPrice strong {
+  margin: 0 5px;
+  font-weight: bold;
+  font-size: 19px;
+  color: #686815;
+}
+.center .center-bottom .right .endow {
+  width: 100%;
+  height: 300px;
+  background-color: #e1d9d9;
+  display: inline-block;
+}
+.center .center-bottom .right .endow .endow-1 {
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+  border-bottom: 1px solid gray;
+}
+.center .center-bottom .right .endow .endow-1 label {
+  font-size: 25px;
+  width: 100%;
+  height: 30px;
+  display: inline-block;
+  margin-bottom: 2px;
+  border-bottom: 1px solid gray;
+}
+.center .center-bottom .right .endow .endow-1 span {
+  width: 100%;
+  display: inline-block;
+  height: 26px;
+}
+.center .center-bottom .right .endow .endow-1 span form p {
+  display: inline-block;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.center .center-bottom .right .endow .endow-1 span form input {
+  display: inline-block;
+}
+.center .center-bottom .right .endow .endow-2 label {
+  width: 117px;
+  height: 28px;
+  font-size: 20px;
+  display: inline-block;
+  background-color: gray;
+}
+.center .center-bottom .right .endow .endow-2 span {
+  margin-top: 10px;
+  display: block;
+}
+.center .center-bottom .right .endow .endow-2 span i {
+  display: inline-block;
+  font-size: 23px;
+}
+.center .center-bottom .right .endow .endow-2 span p {
+  display: inline-block;
+  margin-left: 7px;
+  font-size: 22px;
+}
+.center .center-bottom .right .pay .pay-morca {
+  display: flex;
+  margin-bottom: 20px;
+}
+.center .center-bottom .right .pay .pay-morca img {
+  width: 110px;
+}
+.center .center-bottom .right .pay .pay-morca span {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.center .center-bottom .right .pay .pay-morca span p {
+  font-size: 19px;
+  color: gray;
+}
+.center .center-bottom .right .pay .pay-morca span .pay-tool {
+  font-size: 22px;
+  margin-bottom: 2px;
+  font-weight: 700;
+  color: #2f2e2e;
+}
+.center .center-bottom .right .buy {
+  width: 100%;
+  height: 200px;
+  display: inline-block;
+}
+.center .center-bottom .right .buy .buy-top {
+  text-align: center;
+  margin-top: 60px;
+}
+.center .center-bottom .right .buy .buy-top button {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(193, 8, 8);
+  border-radius: 10px;
+}
+.center .center-bottom .right .buy .buy-top button .buy-now {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+.center .center-bottom .right .buy .buy-top button p {
+  color: white;
+  font-size: 17px;
+}
+.center .center-bottom .right .buy .buy-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.center .center-bottom .right .buy .buy-bottom button {
+  width: 49%;
+  height: 70px;
+  background-color: rgb(28, 14, 184);
+  border-radius: 10px;
+}
+.center .center-bottom .right .buy .buy-bottom button .buy-now {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+.center .center-bottom .right .buy .buy-bottom button p {
+  color: white;
+  font-size: 17px;
+}
+
+/*# sourceMappingURL=index2.css.map */

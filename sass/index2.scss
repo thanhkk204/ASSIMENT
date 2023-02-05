@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+
+    .top {
+        width: 100%;
+        height: 100px;
+        border: 1px solid red;
+        display: flex;
+        justify-content: right;
+        padding-top: 24px;
+        background-color: #c7305b70;
+
+        .search {
+            width: 30%;
+            display: flex;
+
+            form {
+                input {
+                    width: 486px;
+                    font-size: 20px;
+                    height: 45px;
+                }
+            }
+
+            i {
+                font-size: 45px;
+                font-size: 45px;
+                height: 45px;
+                border: 1px solid gray;
+                background-color: #00000070;
+            }
+        }
+
+        .infor {
+            width: 5%;
+            height: 100%;
+            text-align: center;
+
+            i {
+                font-size: 30px;
+            }
+
+            span {
+                display: block;
+            }
+        }
+
+        .pay {
+            width: 5%;
+            height: 100%;
+            text-align: center;
+
+            i {
+                font-size: 30px;
+            }
+
+            span {
+                display: block;
+            }
+        }
+
+        .acount {
+            width: 5%;
+            height: 100%;
+            text-align: center;
+
+            i {
+                font-size: 30px;
+            }
+
+            span {
+                display: block;
+            }
+        }
+
+        .cart {
+            width: 5%;
+            height: 100%;
+            text-align: center;
+            margin-right: 240px;
+
+            i {
+                font-size: 30px;
+            }
+
+            span {
+                display: block;
+            }
+
+        }
+    }
+
+    .bottom {
+        width: 100%;
+        height: 50px;
+        border: 1px solid green;
+        background-color: gray;
+
+        ul {
+            width: 53%;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            margin-top: 15px;
+            i{
+                font-size: 22px;
+            }
+            li {
+                list-style: none;
+                font-size: 20px;
+                text-transform: uppercase;
+                color: white;
+            }
+        }
+    }
+}
+
+//end header
+.center {
+    width: 60%;
+    margin: auto;
+
+    .center-top {
+        width: 100%;
+        height: 170px;
+        line-height: 44px;
+
+        .top {
+            a {
+                text-decoration: none;
+                font-size: 20px;
+            }
+        }
+
+        .bottom {
+            width: 100%;
+            height: 120px;
+            display: flex;
+
+            .bottom-left {
+                width: 65%;
+            }
+
+            .bottom-right {
+                width: 35%;
+                display: flex;
+
+                .star {
+                    margin-right: 10px;
+                }
+
+                .danhGia {
+                    margin-right: 20px;
+                    font-size: 20px;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+
+                .soSanh {
+                    font-size: 20px;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+
+    // end center-head
+    .center-bottom {
+        height: 1000px;
+        border: 1px solid red;
+        display: flex;
+
+        .left {
+            width: 50%;
+            height: 1000px;
+
+            .phone {
+                width: 100%;
+                border: 1px solid rgb(162, 230, 1);
+                height: 550px;
+                background: url('https://images.fpt.shop/unsafe/fit-in/585x429/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108864930926001_frame-detail-585x428.png') center no-repeat;
+                background-size: 100%;
+                text-align: center;
+                display: inline-block;
+
+                img {
+
+                    width: 60%;
+                    margin-top: 100px;
+                }
+
+                p {
+
+                    margin-top: 44px;
+                    font-size: 40px;
+                    color: yellow;
+                    font-weight: 900;
+                }
+            }
+
+            .underPhone {
+                display: flex;
+                display: flex;
+                width: 100%;
+                height: 88px;
+                justify-content: center;
+                margin-top: 35px;
+
+                span {
+                    text-align: center;
+                    margin-left: 30px;
+
+                    i {
+                        font-size: 50px;
+                    }
+
+                    p {
+
+                        font-size: 24px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+            .left-bottom {
+                width: 99%;
+                height: 293px;
+                margin-top: 30px;
+                background-color: #e4dddd;
+                border-radius: 5px;
+                display: inline-block;
+
+                ul {
+                    width: 98%;
+                    height: 92%;
+                    margin-top: 20px;
+                    margin-left: 15px;
+
+                    li {
+
+                        width: 100%;
+                        height: 50px;
+                        list-style: none;
+
+                        span {
+                            display: inline-block;
+
+                            i {
+                                display: inline-block;
+                            }
+
+                            p {
+                                display: inline-block;
+                                font-size: 19px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // end left
+        .right {
+            width: 50%;
+            border: 1px solid rgb(210, 232, 13);
+            height: 1000px;
+            margin-left: 40px;
+
+            .price {
+                width: 100%;
+                height: 70px;
+                margin-top: 20px;
+                margin-left: 15px;
+
+                span {
+                    display: flex;
+
+                    #gia {
+                        color: red;
+                        font-weight: bold;
+                        font-size: 50px;
+                        margin-right: 20px;
+                    }
+
+                    #giaDeal {
+                        margin-top: 23px;
+                        color: gray;
+                        font-size: 24px;
+                    }
+                }
+            }
+
+            #underPrice {
+                width: 35%;
+                height: 35px;
+                display: inline-block;
+                margin-left: 16px;
+                line-height: 35px;
+                text-align: center;
+                background-color: yellow;
+                border-radius: 18px;
+
+                strong {
+                    margin: 0 5px;
+                    font-weight: bold;
+                    font-size: 19px;
+                    color: #686815;
+                }
+            }
+
+            .endow {
+                width: 100%;
+                height: 300px;
+                background-color: #e1d9d9;
+                display: inline-block;
+
+                .endow-1 {
+                    width: 100%;
+                    height: 100px;
+                    margin-top: 15px;
+                    border-bottom: 1px solid gray;
+
+                    label {
+                        font-size: 25px;
+                        width: 100%;
+                        height: 30px;
+                        display: inline-block;
+                        margin-bottom: 2px;
+                        border-bottom: 1px solid gray;
+                    }
+
+                    span {
+                        width: 100%;
+                        display: inline-block;
+                        height: 26px;
+
+                        form {
+                            p {
+                                display: inline-block;
+                                font-size: 22px;
+                                margin-left: 5px;
+                            }
+
+                            input {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+
+                .endow-2 {
+                    label {
+                        width: 117px;
+                        height: 28px;
+                        font-size: 20px;
+                        display: inline-block;
+                        background-color: gray;
+                    }
+
+                    span {
+                        margin-top: 10px;
+                        display: block;
+
+                        i {
+                            display: inline-block;
+                            font-size: 23px;
+                        }
+
+                        p {
+                            display: inline-block;
+                            margin-left: 7px;
+                            font-size: 22px;
+                        }
+                    }
+                }
+            }
+
+            // end endow
+            .pay {
+                .pay-morca {
+                    display: flex;
+                    margin-bottom: 20px;
+                    img {
+                        width: 110px;
+                    }
+
+                    span {
+                        margin-top: 10px;
+                        margin-left: 10px;
+                        p {
+                            font-size: 19px;
+                            color: gray;
+                        }
+
+                        .pay-tool {
+                            font-size: 22px;
+                            margin-bottom: 2px;
+                            font-weight: 700;
+                            color: #2f2e2e;
+                        }
+                    }
+                }
+            }
+//end pay
+            .buy {
+                width: 100%;
+                height: 200px;
+                display: inline-block;
+                .buy-top{
+                    text-align: center;
+                    margin-top: 60px;
+                    button{
+                        width: 100%;
+                        height: 70px;
+                        background-color: rgb(193, 8, 8);
+                        border-radius: 10px;
+                        .buy-now{
+                            font-size: 35px;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        p{
+                            color: white;
+                            font-size: 17px;
+                        }
+                    }
+                }
+                .buy-bottom{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 10px;
+                    button{
+                        width: 49%;
+                        height: 70px;
+                        background-color: rgb(28, 14, 184);
+                        border-radius: 10px;
+                        .buy-now{
+                            font-size: 35px;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        p{
+                            color: white;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

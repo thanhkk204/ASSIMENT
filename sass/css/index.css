@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 150px;
+}
+.header .top {
+  width: 100%;
+  height: 100px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: right;
+  padding-top: 24px;
+  background-color: rgba(199, 48, 91, 0.4392156863);
+}
+.header .top .search {
+  width: 30%;
+  display: flex;
+}
+.header .top .search form input {
+  width: 486px;
+  font-size: 20px;
+  height: 45px;
+}
+.header .top .search i {
+  font-size: 45px;
+  font-size: 45px;
+  height: 45px;
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0.4392156863);
+}
+.header .top .infor {
+  width: 5%;
+  height: 100%;
+  text-align: center;
+}
+.header .top .infor i {
+  font-size: 30px;
+}
+.header .top .infor span {
+  display: block;
+}
+.header .top .pay {
+  width: 5%;
+  height: 100%;
+  text-align: center;
+}
+.header .top .pay i {
+  font-size: 30px;
+}
+.header .top .pay span {
+  display: block;
+}
+.header .top .acount {
+  width: 5%;
+  height: 100%;
+  text-align: center;
+}
+.header .top .acount i {
+  font-size: 30px;
+}
+.header .top .acount span {
+  display: block;
+}
+.header .top .cart {
+  width: 5%;
+  height: 100%;
+  text-align: center;
+  margin-right: 240px;
+}
+.header .top .cart i {
+  font-size: 30px;
+}
+.header .top .cart span {
+  display: block;
+}
+.header .bottom {
+  width: 100%;
+  height: 50px;
+  border: 1px solid green;
+  background-color: gray;
+}
+.header .bottom ul {
+  width: 53%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 15px;
+}
+.header .bottom ul i {
+  font-size: 22px;
+}
+.header .bottom ul li {
+  list-style: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  background: url("https://images.fpt.shop/unsafe/fit-in/filters:quality(95):fill(transparent)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108865177343417_desk-header-bg.png") center no-repeat;
+  background-size: cover;
+  background-color: rgb(255, 239, 238);
+}
+.content .content-head {
+  width: 60%;
+  background: url("https://images.fpt.shop/unsafe/fit-in/filters:quality(80):fill(transparent)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108864980965235_top-head.png") center no-repeat;
+  background-size: 1300px;
+  margin: auto;
+  height: 300px;
+}
+.content .content-lis {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  display: flex;
+}
+.content .content-lis .content-prd {
+  width: 250px;
+  height: 250px;
+  border: 1px solid gainsboro;
+  text-align: center;
+  background-color: white;
+}
+.content .content-lis .content-prd img {
+  width: 120px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 42px;
+  margin-top: 30px;
+  height: 120px;
+}
+.content .content-lis .content-prd p {
+  margin-top: 8px;
+  font-size: 22px;
+}
+.content .content-center {
+  width: 60%;
+  margin: auto;
+}
+.content .content-center img {
+  width: 100%;
+  margin-top: 45px;
+  border-radius: 15px;
+  border: 1px solid pink;
+}
+.content .content-buttom {
+  margin-top: 40px;
+}
+.content .content-buttom h1 {
+  margin-left: 484px;
+  text-shadow: 3px 3px red;
+  color: oldlace;
+  text-transform: uppercase;
+}
+.content .content-buttom .content-list-main {
+  width: 60%;
+  margin: auto;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+.content .content-buttom .content-list-main .main-prd {
+  width: 22%;
+  height: 430px;
+  border: 1px solid red;
+  background: url("https://images.fpt.shop/unsafe/fit-in/270x210/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108864826820188_frame-cate-270x210.png") top center no-repeat;
+}
+.content .content-buttom .content-list-main .main-prd .prd-head {
+  width: 100%;
+  height: 40%;
+  margin: auto;
+  margin-top: 40px;
+  position: relative;
+}
+.content .content-buttom .content-list-main .main-prd .prd-head img {
+  width: 54%;
+  margin: 0 auto;
+  position: absolute;
+  left: 25%;
+  bottom: -6px;
+  border-radius: 12px;
+}
+.content .content-buttom .content-list-main .main-prd .prd-head .prd-head-sale {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 55%;
+}
+.content .content-buttom .content-list-main .main-prd .prd-head .prd-head-sale #traGop {
+  font-weight: bold;
+  width: 108px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 20px;
+  color: rgba(255, 253, 253, 0.97);
+  background-color: #fcba03;
+  border-radius: 0 10px 10px 0;
+}
+.content .content-buttom .content-list-main .main-prd .prd-head .prd-head-sale #sale {
+  width: 157px;
+  font-size: 20px;
+  background-color: red;
+  height: 30px;
+  margin-top: 5px;
+  line-height: 30px;
+  border-radius: 0 10px 10px 0;
+  color: rgba(255, 253, 253, 0.97);
+  box-shadow: 0 2px 3px 1px orange;
+  font-weight: bold;
+}
+.content .content-buttom .content-list-main .main-prd .prd-center {
+  width: 100%;
+  height: 100px;
+  margin-top: 30px;
+}
+.content .content-buttom .content-list-main .main-prd .prd-center p {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.content .content-buttom .content-list-main .main-prd .prd-center .price {
+  font-size: 22px;
+}
+.content .content-buttom .content-list-main .main-prd .prd-center .price #price-sale {
+  display: inline-block;
+  background-color: red;
+  width: 154px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  color: rgba(255, 253, 253, 0.97);
+  border-radius: 19px;
+  font-size: 25px;
+  margin-left: 6px;
+  box-shadow: 0 2px 3px 1px orange;
+}
+.content .content-buttom .content-list-main .main-prd .prd-center .price #price-origin {
+  margin-left: 34px;
+  color: gray;
+}
+.content .content-buttom .content-list-main .main-prd .prd-bottom {
+  background-color: rgb(218, 218, 218);
+  width: 100%;
+  height: 86px;
+  display: inline-block;
+  border-radius: 15px 15px 0 0;
+}
+.content .content-buttom .content-list-main .main-prd .prd-bottom .properties {
+  margin-top: 10px;
+}
+.content .content-buttom .content-list-main .main-prd .prd-bottom .properties span {
+  font-size: 19px;
+  margin-left: 10px;
+}
+.content .content-buttom .content-list-main .main-prd .prd-bottom .properties .properties-screen {
+  margin-left: 117px;
+}
+.content .content-buttom .content-list-main .main-prd .prd-bottom .properties .properties-bottom {
+  display: block;
+}
+.content .content-buttom-logo {
+  width: 60%;
+  height: 350px;
+  background: url("https://images.fpt.shop/unsafe/fit-in/1200x200/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2023/2/1/638108624627380048_H5_1200x200.png") center no-repeat;
+  background-size: 100%;
+  margin: auto;
+}
+
+.footer {
+  width: 60%;
+  height: 300px;
+  margin: auto;
+}
+.footer .text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 27px;
+}
+.footer .text .text-1 ul {
+  list-style: none;
+}
+.footer .text .text-1 li {
+  margin: 10px 0;
+}
+.footer .text .text-1 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+}
+.footer .text .text-2 ul {
+  list-style: none;
+}
+.footer .text .text-2 li {
+  margin: 10px 0;
+}
+.footer .text .text-2 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+}
+.footer .text .text-3 ul {
+  list-style: none;
+}
+.footer .text .text-3 li {
+  margin: 10px 0;
+}
+.footer .text .text-3 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+}
+.footer .text .helpping {
+  width: 530px;
+  display: flex;
+}
+.footer .text .helpping .left {
+  display: block;
+  width: 250px;
+}
+.footer .text .helpping .left p {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.footer .text .helpping .left span {
+  display: flex;
+  margin-bottom: 10px;
+}
+.footer .text .helpping .left span p {
+  color: red;
+  font-size: 30px;
+}
+.footer .text .helpping .left span #helping-nhanh {
+  color: rgb(83, 71, 71);
+  font-size: 17px;
+  line-height: 37px;
+  margin-left: 11px;
+}
+.footer .text .helpping .right {
+  margin-left: 30px;
+  display: block;
+  width: 250px;
+}
+.footer .text .helpping .right p {
+  font-size: 20px;
+  color: black;
+  font-weight: bold;
+}
+.footer .text .helpping .right span {
+  display: flex;
+  margin-bottom: 10px;
+}
+.footer .text .helpping .right span p {
+  color: red;
+  font-size: 30px;
+}
+.footer .text .helpping .right span #helping-nhanh {
+  color: rgb(83, 71, 71);
+  font-size: 17px;
+  line-height: 37px;
+  margin-left: 11px;
+}
+
+/*# sourceMappingURL=index.css.map */
